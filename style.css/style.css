@@ -129,3 +129,52 @@
   flex: 1;
   width: 100%;
 }
+/* Our Plants Section */
+
+/* .our-plants {
+  gap: 50px;
+} */
+
+.our-plants-content {
+  align-items: center;
+  text-align: center;
+  padding-top: 40px;
+}
+.our-plants-content-title {
+  font-weight: bold;
+  font-size: 3.2rem;
+}
+
+.our-plants-content-description {
+  font-weight: 400px;
+  font-size: 1.4rem;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.5);
+  padding-top: 15px;
+}
+.flower-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding-top: 50px;
+  gap: 15px;
+}
+
+.flower {
+  border: none;
+  gap: 50px;
+}
+
+.flower-content {
+  text-align: center;
+}
+
+.flower-title {
+  font-weight: 500px;
+  font-size: 1.4rem;
+  padding-top: 10px;
+}
+.flower-description {
+  font-weight: bold;
+  font-size: 1.4rem;
+  padding: 10px 0;
+}
