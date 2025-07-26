@@ -398,3 +398,69 @@ input[type="Email"] {
   font-weight: 400 px;
   font-size: 1 rem;
 }
+
+/* footer-section */
+
+footer {
+  margin: 0 auto;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+.footer-content {
+  /* display: flex;
+    justify-content: space-around;
+    align-items: center;
+    grid-template-columns: 350px 85px 128px 216px;
+    gap: 50px; */
+
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+
+  gap: 50px;
+}
+.footer-content-logo {
+  max-width: 360px;
+}
+
+/* #f-logo {
+  width: 135px;
+  height: 82px;
+} */
+.footer-content-logo-description {
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+.footer-content-nav-1 {
+  flex-direction: column;
+  margin: 0 auto;
+  line-height: 50px;
+}
+
+.footer-content-nav-2 {
+  flex-direction: column;
+  margin: 0 auto;
+  line-height: 50px;
+}
+.footer-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+  padding-bottom: 180px;
+}
+/* .footer-icon a{
+
+
+ } */
+footer ul li {
+  list-style: none;
+  margin: 0;
+}
+footer a {
+  text-decoration: none;
+}
+.footer-link {
+  font-weight: 500;
+  font-size: 1rem;
+}
